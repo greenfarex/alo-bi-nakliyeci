@@ -403,6 +403,7 @@ function App() {
         href="https://wa.me/905342359168?text=Merhaba%2C%20Alo%20Bi%20Nakliyeci%27den%20nakliye%20fiyat%C4%B1%20almak%20istiyorum.%0A%0ANereden%3A%20%0ANereye%3A%20%0AY%C3%BCk%C3%BCn%20t%C3%BCr%C3%BC%3A"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => trackWhatsApp('floating')}
         style={{
           position: "fixed",
           right: "25px",
