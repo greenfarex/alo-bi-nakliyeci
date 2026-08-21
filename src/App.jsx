@@ -1,6 +1,13 @@
 import './App.css'
 import logo from './assets/logo.png'
 import ducato from './assets/ducato2.png'
+const trackWhatsApp = (location) => {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', 'whatsapp_click', {
+      button_location: location,
+    })
+  }
+}
 
 function App() {
   return (
